@@ -16,36 +16,36 @@ The pipeline leverages Delta Live Tables (DLT) and declarative transformations t
 The project follows the Medallion Architecture:
 
 🔹 Bronze Layer (Raw Ingestion)
-Ingest raw data from source systems (e.g., APIs, CSV, JSON, streaming sources)
-Store data in its original format
-Minimal transformation
-Handles schema evolution
+- Ingest raw data from source systems (e.g., APIs, CSV, JSON, streaming sources)
+- Store data in its original format
+- Minimal transformation
+- Handles schema evolution
 
 🔹 Silver Layer (Cleaned & Transformed)
-Data cleaning and validation
-Handling missing/null values
-Standardizing formats
-Joining multiple datasets
-Creating enriched datasets
+- Data cleaning and validation
+- Handling missing/null values
+- Standardizing formats
+- Joining multiple datasets
+- Creating enriched datasets
 
 🔹 Gold Layer (Business-Level Aggregations)
-Aggregated and curated data
-Business KPIs and metrics
-Optimized for BI tools and reporting
+- Aggregated and curated data
+- Business KPIs and metrics
+- Optimized for BI tools and reporting
 
 ⚙️ Tech Stack
-Databricks Lakeflow
-Delta Live Tables (DLT)
-Apache Spark (PySpark)
-Delta Lake
-Python
+- Databricks Lakeflow
+- Delta Live Tables (DLT)
+- Apache Spark (PySpark)
+- Delta Lake
+- Python
 
 🚀 Features
-Declarative pipeline design using DLT
-Automated data quality checks (expectations)
-Scalable and incremental data processing
-Stream and batch processing support
-Fault-tolerant and reliable pipeline execution
+- Declarative pipeline design using DLT
+- Automated data quality checks (expectations)
+- Scalable and incremental data processing
+- Stream and batch processing support
+- Fault-tolerant and reliable pipeline execution
 
 📂 Project Structure
 
@@ -67,45 +67,45 @@ Fault-tolerant and reliable pipeline execution
 
 
 🔄 Pipeline Flow
-Raw data is ingested into Bronze tables
-Bronze data is cleaned and transformed into Silver tables
-Silver data is aggregated into Gold tables
-Gold tables are consumed by BI tools (Power BI, Tableau)
+- Raw data is ingested into Bronze tables
+- Bronze data is cleaned and transformed into Silver tables
+- Silver data is aggregated into Gold tables
+- Gold tables are consumed by BI tools (Power BI, Tableau)
 
 
 🧪 Data Quality & Expectations
-Schema enforcement
-Null checks
-Duplicate removal
-Business rule validations
+- Schema enforcement
+- Null checks
+- Duplicate removal
+- Business rule validations
 
 📊 Use Case
 
 This pipeline can be applied to:
 
-Retail analytics
-Sales performance tracking
-Customer behavior analysis
-Financial reporting
+- Retail analytics
+- ales performance tracking
+- Customer behavior analysis
+- Financial reporting
 
 🛠️ Setup Instructions
-Create a Databricks workspace
-Enable Delta Live Tables
-Upload project files to workspace
-Configure pipeline settings
-Run the pipeline
+- Create a Databricks workspace
+- Enable Delta Live Tables
+- Upload project files to workspace
+- Configure pipeline settings
+- Run the pipeline
 
 ▶️ How to Run
-Create a new DLT pipeline in Databricks
-Select the notebook/script
-Configure cluster and storage
-Click "Start"
+- Create a new DLT pipeline in Databricks
+- Select the notebook/script
+- Configure cluster and storage
+- Click "Start"
 
 📈 Future Enhancements
-Add CI/CD integration
-Implement real-time streaming sources
-Add monitoring and alerting
-Integrate with external data sources
+- Add CI/CD integration
+- Implement real-time streaming sources
+- Add monitoring and alerting
+- Integrate with external data sources
 
 
 👤 Author
