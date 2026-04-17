@@ -15,7 +15,7 @@ The pipeline leverages Delta Live Tables (DLT) and declarative transformations t
 
 The project follows the Medallion Architecture:
 
-![image alt](https://github.com/oladebo/databricks-lakeflow-end-to-end-declarative-data-pipeline/blob/07bbfd03f8809c224cf3aed5fb73d18f81922008/Screen%20Shot%202026-04-15%20at%2014.30.56.png)
+![image alt](https://github.com/oladebo/databricks-lakeflow-end-to-end-declarative-data-pipeline/blob/8f2277be81c3f61c44f84d36a67a0a13307e1fbf/Screen%20Shot%202026-04-17%20at%2012.03.05.png)
 
 🔹 Bronze Layer (Raw Ingestion)
 - Ingest raw data from source systems (e.g., APIs, CSV, JSON, streaming sources)
